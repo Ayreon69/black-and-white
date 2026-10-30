@@ -2,6 +2,8 @@
 
 **Neuf tuiles. Seule la couleur se voit. Le reste, tu dois t'en souvenir.**
 
+👉 **Jouer : https://black-and-white-hn5n.onrender.com** (la première ouverture peut prendre jusqu'à une minute, le temps que le serveur gratuit se réveille)
+
 Jeu multijoueur en ligne de déduction et de bluff, à jouer entre amis depuis un navigateur, sur téléphone ou ordinateur, sans compte ni installation.
 D'après le jeu de l'émission coréenne *The Genius* (projet de fans, non officiel, avec ses propres visuels).
 
