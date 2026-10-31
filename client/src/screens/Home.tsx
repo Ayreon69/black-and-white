@@ -1,5 +1,5 @@
 // Accueil : le titre coupé en deux, pseudo + motif, créer / rejoindre une table, entraînement, règles.
-import { BookOpen, Bot, LogIn, Plus, Trophy } from 'lucide-react';
+import { BookOpen, Bot, House, LogIn, Plus, Trophy } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { AVATARS, TILES } from '../../../shared/protocol';
 import { PATTERN_LABELS, Pattern } from '../components/Pattern';
@@ -39,6 +39,9 @@ export function Home() {
 
   return (
     <main className="home">
+      <a className="all-games" href="https://akhis-games.onrender.com">
+        <House size={16} aria-hidden /> Tous les jeux
+      </a>
       <header className="home-hero">
         <Logo size="lg" />
         <div className="home-tiles" aria-hidden>
