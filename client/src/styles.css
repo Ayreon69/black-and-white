@@ -1627,6 +1627,14 @@ button:disabled {
 }
 
 /* Lien vers la page qui liste tous les jeux : une ligne de l'accueil, jamais par-dessus le titre */
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 16px;
+  padding: env(safe-area-inset-top) var(--gutter) 0;
+  background: var(--k);
+}
 .all-games {
   display: flex;
   align-items: center;
@@ -1638,9 +1646,7 @@ button:disabled {
   font-weight: 600;
   line-height: 1;
   text-decoration: none;
-  padding: env(safe-area-inset-top) var(--gutter) 0;
   width: auto;
-  background: var(--k);
   font-family: var(--mono);
 }
 .all-games:hover {
